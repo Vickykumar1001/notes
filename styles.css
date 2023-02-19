@@ -8,12 +8,11 @@ html {
 }
 body {
   background: #eee;
-  padding: 0 16px;
 }
 
 header {
   background-color: #f5ba13;
-  margin: auto -16px;
+  margin: auto ;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
@@ -78,7 +77,7 @@ footer p {
 
 form {
   position: relative;
-  width: 480px;
+  max-width: 480px;
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
